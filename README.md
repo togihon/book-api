@@ -20,8 +20,8 @@ pkg/common/const.go
 # test postman
 Berikut ini adalah HTTP method beserta route-nya  
   
-GET "/books/" &nbsp;&nbsp;&nbsp;&nbsp;           //get all books  
-GET "/books/:bookID"   &nbsp;&nbsp;&nbsp;&nbsp;  //get book by id  
-POST "/books/        &nbsp;&nbsp;&nbsp;&nbsp;    //create book  
-PUT "/books/:bookID"  &nbsp;&nbsp;&nbsp;&nbsp;   //update book by id  
-DELETE "/books/:bookID"&nbsp;&nbsp;&nbsp;&nbsp;  //delete book by id  
+GET "/books/" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//get all books  
+GET "/books/:bookID" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  //get book by id  
+POST "/books/" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //create book  
+PUT "/books/:bookID" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   //update book by id  
+DELETE "/books/:bookID" &nbsp;&nbsp;  //delete book by id  
