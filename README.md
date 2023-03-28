@@ -17,6 +17,14 @@ CREATE TABLE IF NOT EXISTS public.books
 Jangan lupa untuk menyesuaikan config database dengan mengubah data di bagian  
 pkg/common/const.go
 
+# body request postman untuk create dan update  
+  
+  {  
+  &nbsp;&nbsp;title: "insert title"  
+  &nbsp;&nbsp;author: "insert author"  
+  &nbsp;&nbsp;description: "insert description"  
+  }  
+  
 # test postman
 Berikut ini adalah HTTP method beserta route-nya  
   
