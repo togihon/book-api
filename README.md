@@ -20,14 +20,15 @@ pkg/common/const.go
 # body request postman untuk create dan update  
   ```
   {  
-  title: "insert title"  
-  author: "insert author"  
-  description: "insert description"  
+  "title": "insert title",  
+  "author": "insert author",  
+  "description": "insert description"  
   }  
   ```
 # test postman
 Berikut ini adalah HTTP method beserta route-nya  
-  
+`localhost:8080/`  
+
 GET "/books/" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//get all books  
 GET "/books/:bookID" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  //get book by id  
 POST "/books/" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //create book  
