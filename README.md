@@ -1,5 +1,6 @@
 # book-api
-Repo ini adalah sebuah api serderhana menggunakan GO (gin web framework) dan PostgreSQL. Untuk menjalankan silakan ketik "go run main.go" di terminal.
+Repo ini adalah sebuah api serderhana menggunakan GO (gin web framework) dan PostgreSQL.   
+Untuk menjalankan silakan ketik `go run main.go` di terminal.
 
 # buat database postgreSQL
 buatlah sebuah database postgresql (bisa menggunakan pgadmin) dan buatlah sebuah table dengan script  
@@ -27,10 +28,10 @@ pkg/common/const.go
   ```
 # test postman
 Berikut ini adalah HTTP method beserta route-nya  
-`localhost:8080/`  
 
-GET "/books/" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//get all books  
-GET "/books/:bookID" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  //get book by id  
-POST "/books/" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //create book  
-PUT "/books/:bookID" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   //update book by id  
-DELETE "/books/:bookID" &nbsp;&nbsp;  //delete book by id  
+
+GET `localhost:8080/books` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//get all books  
+GET `localhost:8080/books/:bookID` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  //get book by id  
+POST `localhost:8080/books/` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //create book  
+PUT `localhost:8080/books/:bookID` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   //update book by id  
+DELETE `localhost:8080/books/:bookID` &nbsp;&nbsp;  //delete book by id  
